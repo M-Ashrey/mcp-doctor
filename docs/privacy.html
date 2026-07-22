@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Privacy Policy — mcp-doctor</title>
+<meta name="description" content="Privacy policy for mcp-doctor and related open-source developer tools.">
+<link rel="canonical" href="https://m-ashrey.github.io/mcp-doctor/privacy.html">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='20' fill='%230d1117'/%3E%3Ctext x='50' y='72' font-size='60' text-anchor='middle' fill='%2358a6ff'%3E%2B%3C/text%3E%3C/svg%3E">
+<style>
+  :root{--bg:#0d1117;--panel:#161b22;--border:#30363d;--text:#e6edf3;--muted:#8b949e;--accent:#58a6ff;
+    --mono:"SFMono-Regular",ui-monospace,Consolas,monospace;--sans:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif}
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{background:var(--bg);color:var(--text);font-family:var(--sans);line-height:1.7}
+  a{color:var(--accent);text-decoration:none}a:hover{text-decoration:underline}
+  .wrap{max-width:760px;margin:0 auto;padding:0 24px}
+  nav{position:sticky;top:0;z-index:20;backdrop-filter:blur(10px);background:rgba(13,17,23,.72);border-bottom:1px solid var(--border)}
+  nav .wrap{display:flex;align-items:center;justify-content:space-between;height:60px}
+  .brand{font-weight:700;font-size:18px;color:var(--text)}.brand .dot{color:var(--accent);font-family:var(--mono)}
+  .navlinks a{color:var(--muted);font-size:14px;margin-left:20px}.navlinks a:hover{color:var(--text);text-decoration:none}
+  header{padding:56px 0 28px}
+  h1{font-size:clamp(28px,5vw,40px);letter-spacing:-.02em;font-weight:800}
+  .updated{color:var(--muted);font-family:var(--mono);font-size:13px;margin-top:10px}
+  main{padding-bottom:70px}
+  h2{font-size:20px;margin:36px 0 12px;font-weight:700}
+  p{color:#c9d1d9;margin-top:12px}
+  ul{color:#c9d1d9;margin:12px 0 0 22px}li{margin:6px 0}
+  code{font-family:var(--mono);background:var(--panel);border:1px solid var(--border);border-radius:5px;padding:1px 6px;font-size:.9em;color:var(--accent)}
+  .box{background:var(--panel);border:1px solid var(--border);border-radius:12px;padding:20px 24px;margin-top:24px}
+  footer{border-top:1px solid var(--border);padding:32px 0;text-align:center;color:var(--muted);font-size:14px}
+  footer a{color:var(--muted)}
+</style>
+</head>
+<body>
+<nav><div class="wrap">
+  <div class="brand">mcp<span class="dot">-</span>doctor</div>
+  <div class="navlinks"><a href="./index.html">Home</a><a href="./terms.html">Terms</a><a href="https://github.com/M-Ashrey/mcp-doctor" target="_blank" rel="noopener">GitHub</a></div>
+</div></nav>
+
+<header><div class="wrap">
+  <h1>Privacy Policy</h1>
+  <div class="updated">Last updated: 22 July 2026</div>
+</div></header>
+
+<main><div class="wrap">
+  <p>This Privacy Policy explains how the open-source developer tools published at <a href="https://github.com/M-Ashrey" target="_blank" rel="noopener">github.com/M-Ashrey</a> &mdash; including <b>mcp-doctor</b> &mdash; and any associated integrations handle information. This includes automated publishing integrations we operate for our own content on third-party platforms such as TikTok and YouTube.</p>
+
+  <div class="box">
+    <p style="margin-top:0"><b>Short version:</b> mcp-doctor is a command-line tool that runs entirely on your own machine. It does not collect, transmit, store, or sell any personal data. There is no analytics, no telemetry, and no account.</p>
+  </div>
+
+  <h2>1. Information we collect</h2>
+  <p><b>The mcp-doctor CLI collects nothing.</b> It runs locally, inspects the MCP server you point it at, prints results to your terminal, and exits. It makes no network calls of its own, contains no analytics or telemetry, and does not create user accounts.</p>
+  <p>Where we operate authenticated integrations with third-party platforms (for example, connecting our own accounts to publish our own videos), the only information involved is the platform data required to perform that action &mdash; such as profile and account identifiers, and the media we ourselves upload. We access this data solely to publish and manage our own content.</p>
+
+  <h2>2. How we use information</h2>
+  <ul>
+    <li>To operate the software's stated function (analysing MCP servers locally).</li>
+    <li>To publish and manage content that we own on platforms we have connected using our own credentials.</li>
+    <li>To respond to support requests sent to us via GitHub Issues.</li>
+  </ul>
+  <p>We do not use any information for advertising, profiling, or resale.</p>
+
+  <h2>3. Information we do <em>not</em> collect or share</h2>
+  <p>We do not collect your personal data through the CLI, do not track usage, do not use cookies for tool functionality, and do not sell or share personal information with third parties. Any data handled through platform integrations is used only for the integration's stated purpose and is not retained beyond what the operation requires.</p>
+
+  <h2>4. Third-party platforms</h2>
+  <p>When integrations connect to third-party services (such as TikTok's Content Posting API or the YouTube Data API), use of those services is also governed by their respective privacy policies and terms, which we recommend reviewing. Access tokens obtained through such integrations are stored securely and used only to perform the actions authorised.</p>
+
+  <h2>5. Data retention &amp; deletion</h2>
+  <p>Because the CLI stores nothing, there is nothing to delete. For platform integrations, access can be revoked at any time from the relevant platform's connected-apps settings, which immediately ends our ability to act on that account. To request deletion of any information you believe we hold, contact us via the channel below.</p>
+
+  <h2>6. Security</h2>
+  <p>Credentials used for platform integrations are stored locally and transmitted only over encrypted (HTTPS) connections to the respective platform APIs.</p>
+
+  <h2>7. Children's privacy</h2>
+  <p>These tools are intended for software developers and are not directed at children under 13. We do not knowingly collect information from children.</p>
+
+  <h2>8. Changes to this policy</h2>
+  <p>We may update this policy from time to time. Material changes will be reflected by updating the "Last updated" date at the top of this page.</p>
+
+  <h2>9. Contact</h2>
+  <p>Questions about this policy? Open an issue at <a href="https://github.com/M-Ashrey/mcp-doctor/issues" target="_blank" rel="noopener">github.com/M-Ashrey/mcp-doctor/issues</a>.</p>
+</div></main>
+
+<footer><div class="wrap">
+  <a href="./index.html">mcp-doctor</a> &middot; <a href="./terms.html">Terms of Service</a> &middot; MIT &copy; Mohamed Ashrey
+</div></footer>
+</body>
+</html>
