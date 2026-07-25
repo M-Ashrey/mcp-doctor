@@ -83,6 +83,13 @@ python -m unittest discover -s tests -v
 Part of a small family of dependency-light MCP/agent tools:
 [memory-mcp](https://github.com/M-Ashrey/memory-mcp) · [promptlint](https://github.com/M-Ashrey/promptlint) · [claude-mcp-starter-kit](https://github.com/M-Ashrey/claude-mcp-starter-kit)
 
+## Contributing
+
+Bug reports and pull requests are welcome. Please open an issue at
+[github.com/M-Ashrey/mcp-doctor/issues](https://github.com/M-Ashrey/mcp-doctor/issues)
+before sending a large PR so we can agree on the approach first. See
+[SECURITY.md](SECURITY.md) to report a vulnerability privately.
+
 ## License
 
 MIT © Mohamed Ashrey
