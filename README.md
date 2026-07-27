@@ -83,6 +83,10 @@ python -m unittest discover -s tests -v
 Part of a small family of dependency-light MCP/agent tools:
 [memory-mcp](https://github.com/M-Ashrey/memory-mcp) · [promptlint](https://github.com/M-Ashrey/promptlint) · [claude-mcp-starter-kit](https://github.com/M-Ashrey/claude-mcp-starter-kit)
 
+## Support this work
+
+mcp-doctor is free, open source, and MIT licensed, and it stays that way. If it saves you time, you can help keep it maintained through [GitHub Sponsors](https://github.com/sponsors/M-Ashrey) or [Ko-fi](https://ko-fi.com/ashrey122).
+
 ## Contributing
 
 Bug reports and pull requests are welcome. Please open an issue at
