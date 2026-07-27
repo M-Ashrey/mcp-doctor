@@ -1,6 +1,7 @@
-# These get a "Sponsor" button on the repo. GitHub Sponsors is the primary,
-# most-credible path for supporting this free & open-source tool.
+# These get a "Sponsor" button on the repo. GitHub Sponsors and Ko-fi are the
+# primary, most-credible paths for supporting this free & open-source tool.
 github: [M-Ashrey]
+ko_fi: ashrey122
 
 # Secondary: routes the repo Sponsor button to the donate page, which also
 # lists a crypto (BEP20/BSC) option under the primary GitHub Sponsors CTA.
