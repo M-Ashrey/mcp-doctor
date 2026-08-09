@@ -7,11 +7,13 @@ Building an MCP server is easy. Knowing whether it actually *works*, won't confu
 Zero dependencies. One command.
 
 ```bash
-pipx install mcp-doctor      # or: pip install mcp-doctor
+pipx install git+https://github.com/M-Ashrey/mcp-doctor
 mcp-doctor -- python -m my_server
 ```
 
 Everything after `--` is how you launch your server (stdio). It's run as an argument list, never through a shell.
+
+Note: `pip install mcp-doctor` on PyPI is a different, unrelated package by a different author. This project has not been published to PyPI under that name, so install straight from this repository as shown above.
 
 ## What it checks
 
@@ -50,7 +52,7 @@ $ mcp-doctor -- python -m my_server
 `mcp-doctor` exits `0` when clean, `1` when it finds an error-level issue — so it drops straight into a pipeline:
 
 ```yaml
-- run: pipx install mcp-doctor
+- run: pipx install git+https://github.com/M-Ashrey/mcp-doctor
 - run: mcp-doctor -- python -m my_server
 ```
 
@@ -96,4 +98,4 @@ before sending a large PR so we can agree on the approach first. See
 
 ## License
 
-MIT © Mohamed Ashrey
+MIT. See [LICENSE](LICENSE).
